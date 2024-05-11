@@ -14,6 +14,8 @@ public class JenkinsTest {
 
     String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWYzMjRjN2YwYTExODAwM2QyZDA1NjQiLCJpYXQiOjE3MTU0MjE0NDQsImV4cCI6MTcxNjAyNjI0NH0.9F0GfMAmlNJvmRKay2CLxAINF9onzrqPsqlOwXq5CGM";
 
+
+
     @Before
     public void setUp() {
         RestAssured.baseURI = "https://qa-mesto.praktikum-services.ru";
